@@ -1,10 +1,11 @@
 import "./App.css";
-import { BasicForm } from "./forms/BasicForm";
+import { BasicForm, RegisterFields } from "./forms/index";
 
 function App() {
   return (
     <>
       <BasicForm />
+      <RegisterFields />
     </>
   );
 }
