@@ -34,7 +34,7 @@ export const IntegratedWithExistingForm = () => {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data) => {
-    alert(JSON.stringify("IntegratedWithExistingForm:: ", data));
+    alert(JSON.stringify(data));
   };
 
   return (
