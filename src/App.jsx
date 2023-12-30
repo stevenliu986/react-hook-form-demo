@@ -5,6 +5,7 @@ import {
   RegisterFields,
   IntegratedWithExistingForm,
   IntegratedWithUILib,
+  HandleErrors,
 } from "./forms/index";
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <IntegratedWithExistingForm />
       <br />
       <IntegratedWithUILib />
+      <br />
+      <HandleErrors />
       <br />
     </>
   );

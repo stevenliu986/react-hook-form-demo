@@ -3,3 +3,4 @@ export { RegisterFields } from "./RegisterFields";
 export { ApplyValidation } from "./ApplyValidation";
 export { IntegratedWithExistingForm } from "./IntegratedWithExistingForm";
 export { IntegratedWithUILib } from "./IntegratedWithUILib";
+export { HandleErrors } from "./HandleErrors";
