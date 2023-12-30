@@ -4,6 +4,7 @@ import {
   BasicForm,
   RegisterFields,
   IntegratedWithExistingForm,
+  IntegratedWithUILib,
 } from "./forms/index";
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <ApplyValidation />
       <br />
       <IntegratedWithExistingForm />
+      <br />
+      <IntegratedWithUILib />
       <br />
     </>
   );
