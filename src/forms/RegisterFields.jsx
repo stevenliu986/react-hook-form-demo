@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
  */
 export const RegisterFields = () => {
   const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => console.log("RegisterFields:: ", data);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>

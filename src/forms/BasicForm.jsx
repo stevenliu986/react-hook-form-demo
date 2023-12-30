@@ -8,7 +8,7 @@ export const BasicForm = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    console.log("BasicForm:: ", data);
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
