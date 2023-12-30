@@ -4,3 +4,4 @@ export { ApplyValidation } from "./ApplyValidation";
 export { IntegratedWithExistingForm } from "./IntegratedWithExistingForm";
 export { IntegratedWithUILib } from "./IntegratedWithUILib";
 export { HandleErrors } from "./HandleErrors";
+export { SchemaValidation } from "./SchemaValidation";

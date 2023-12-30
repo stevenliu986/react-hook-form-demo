@@ -6,6 +6,7 @@ import {
   IntegratedWithExistingForm,
   IntegratedWithUILib,
   HandleErrors,
+  SchemaValidation,
 } from "./forms/index";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <IntegratedWithUILib />
       <br />
       <HandleErrors />
+      <br />
+      <SchemaValidation />
       <br />
     </>
   );
